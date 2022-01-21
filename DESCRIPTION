@@ -1,0 +1,17 @@
+Package: eiSkillsTest
+Title: Energetic Insurance Skills Test
+Version: 1.0.0
+Authors@R: 
+    person("Ezra" "Tucker", , "ezra.tucker@energeticinsurance.com", role = c("aut", "cre"))
+Description: This package is to define read and write file generic functions.
+    The tests are complete, but the actual code is not.
+License: PROPRIETARY
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+    methods,
+    tools
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
