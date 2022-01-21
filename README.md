@@ -10,7 +10,7 @@ some of them.
 ## BACKGROUND
 
 The purpose of this package is to simplify the data reading process. Instead of, say `read.csv()` to read a csv file, and
-`yaml::read_yam()` to read a yaml file, they are all to be unified under a simple generic function `read.file()`. The classes
+`yaml::read_yaml()` to read a yaml file, they are all to be unified under a simple generic function `read.file()`. The classes
 defined herein all use the S4 type system.
 
 The problems are laid out both in the scripts in the R directory as well as the test files in the tests/testthat directory. The
